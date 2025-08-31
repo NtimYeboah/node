@@ -7,6 +7,12 @@
 //5. node todo.js list-done
     //1. Write script to run node todo app
 
+// =========================================================
+// Usage: Add a task | node todo.js add "Learn node process module"
+
+// Usage: Move task to WIP | node todo.js wip "Learn node process module"
+
+// Usage Move task to done | node todo.js done "Learn node process module"
 
 import { argv } from 'node:process'
 import { appendFile, readFile, writeFile } from 'node:fs/promises'
